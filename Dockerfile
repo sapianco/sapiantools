@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-cache bash gawk sed grep bc coreutils curl sipsak bind-tools rsync
+RUN apk add --no-cache bash gawk sed grep bc coreutils curl sipsak bind-tools rsync mosquitto-clients openssh-client neovim
 
 ARG BUILD_DATE
 ARG VCS_REF
